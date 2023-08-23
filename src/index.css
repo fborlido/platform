@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Montserrat:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply text-xl font-accent font-bold mb-8;
+}
+
+.button {
+  @apply block text-light bg-primary py-2 px-4 font-bold tracking-wider uppercase rounded-sm hover:bg-accent transition-colors;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F1FAEE;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #457B9D;
+}
